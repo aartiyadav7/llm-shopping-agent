@@ -1,0 +1,19 @@
+.venv
+venv
+env
+__pycache__
+.env
+.git
+.streamlit/secrets.toml
+data/carts.json
+data/wishlist.json
+data/price_alerts.json
+data/price_history.json
+data/browsing_history.json
+data/users.json
+AI Shopping Agent/
+*.pyc
+*.pyo
+*.pyd
+.db
+.vscode
