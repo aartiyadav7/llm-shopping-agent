@@ -17,7 +17,7 @@ docker run -p 8501:8501 -e OPENAI_API_KEY="your_key_here" ai-shopping-agent
 The fastest way to go live is using [Streamlit Cloud](https://share.streamlit.io/):
 1. Push your code to a GitHub repository.
 2. Connect your GitHub account to Streamlit Cloud.
-3. Select this repository and `main.py` as the entry point.
+3. Select this repository and `app.py` as the entry point.
 4. **Important**: Add your `OPENAI_API_KEY` in the **Advanced Settings -> Secrets** section:
    ```toml
    OPENAI_API_KEY = "sk-..."
